@@ -6,11 +6,13 @@ import Message from './components/Message'
 import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import EventBind from './components/EventBind'
+import ParentComponent from './components/ParentComponent';
 
 function App() {
     return (
         <div className="App">
-            <EventBind />
+            <ParentComponent />
+            {/* <EventBind /> */}
             {/* <FunctionClick /> */}
             {/* <Greet name = "Ankur">
                 <p>This is child prop</p>
